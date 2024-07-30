@@ -8,8 +8,10 @@ function sendEmail(event) {
         message : document.getElementById("message").value,
     };
     emailjs.send('service_32na85m', 'template_nmo23fq', params).then(
-        (response) => {
-          alert('SUCCESS!', response.status);
+        () => {
+            Swal.fire({
+                title: 'Submitted!!'
+            })
         }
       );
 }

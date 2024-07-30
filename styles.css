@@ -64,3 +64,35 @@ body {
 .contact-form button:hover {
     background: #555;
 }
+
+        @media screen and (max-width: 480px){
+            body {
+                padding: 20px;
+            }
+        
+            .contact-form {
+                padding: 20px;
+                width: 100%;
+                max-width: none;
+            }
+        
+            .contact-form h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+        
+            .contact-form .form-group {
+                margin-bottom: 10px;
+            }
+        
+            .contact-form input,
+            .contact-form textarea {
+                padding: 8px;
+                font-size: 14px;
+            }
+        
+            .contact-form button {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
