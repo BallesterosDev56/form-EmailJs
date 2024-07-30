@@ -37,7 +37,7 @@ body {
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -50,7 +50,7 @@ body {
 }
 
 .contact-form button {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     background: #333;
     color: #fff;
